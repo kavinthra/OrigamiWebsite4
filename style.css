@@ -1,0 +1,65 @@
+h1{
+    color:greenyellow;
+    border:10px solid dimgray;
+    background-color: dimgray;
+}
+body{
+    background-color: #f7f2f2;
+    margin:2px;
+    
+}
+img{
+    border:5px solid #000000;
+    border-radius: 40px;
+}
+.Menu{
+    display:flex;
+    justify-content:space-between;
+    background-color: #000000;
+    padding: 15px;
+    color:#ffffff;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+.Grid{
+    display:flex;
+    margin:40px;
+    flex-wrap:wrap;
+}
+.Grid img{
+    border:2px solid #000000;
+    border-radius:50px;
+}
+.Origami{
+    border-radius:20px;
+    background-color: antiquewhite;
+    width:310px;
+    margin:25px;
+    padding:30px;
+}
+.Instructions{
+    position:relative; 
+}
+.Instructions p{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color:seashell;
+    font-family: fantasy;
+}
+.Instructions h3{
+    position:absolute;
+    top:40%;
+    left:45%;
+    transform:translate(-40%,-40%);
+    font-family: fantasy;
+    color:silver;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
